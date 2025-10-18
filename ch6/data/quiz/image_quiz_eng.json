@@ -1,0 +1,22 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Many motorcycles are parked in front of the building.\n- (2) The building has a modern glass exterior.\n- (3) There are trees lined up along the street.\n- (4) The exterior of the building is gray.",
+        "img": "bike.jpg"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Several chefs are wearing hats.\n- (2) The chefs are wearing white uniforms.\n- (3) People are using a wooden steamer.\n- (4) The chefs are cooking outdoors.",
+        "img": "dumpling.jpg"
+    },
+    {
+        "no": 3,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) It shows people listening to a lecture.\n- (2) The presenter is giving a presentation in front of the stage.\n- (3) The stage displays the phrase \"2025 메디컬 AI 이노베이션.\"\n- (4) All the audience members are wearing red T-shirts.",
+        "img": "khf2025.jpg"
+    },
+    {
+        "no": 4,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Sliced meat is stacked in layers.\n- (2) The sign has a cat drawing.\n- (3) There is a bowl of rice on the table.\n- (4) There is a coffee machine in the background.",
+        "img": "meat.jpg"
+    }
+]
