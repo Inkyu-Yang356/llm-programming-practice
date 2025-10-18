@@ -1,0 +1,10 @@
+# AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
+
+## 저자의 문제 인식 및 주장
+저자는 자연어 처리(NLP)에서 성공적으로 사용되고 있는 Transformer 아키텍처가 컴퓨터 비전 분야에서는 아직 충분히 활용되지 않고 있다고 지적한다. 기존의 컴퓨터 비전에서는 주로 CNN(Convolutional Neural Networks)과 결합하여 사용되거나 CNN의 일부를 대체하는 방식으로 사용되었다. 그러나 저자는 CNN에 의존하지 않고 순수한 Transformer를 이미지 패치의 시퀀스에 직접 적용하여 이미지 분류 작업에서 우수한 성능을 발휘할 수 있음을 보여준다. 특히, 대량의 데이터로 사전 학습한 후 중소 규모의 이미지 인식 벤치마크로 전이 학습할 경우, Vision Transformer(ViT)는 최첨단 CNN과 비교하여 훌륭한 결과를 얻을 수 있으며, 학습에 필요한 계산 자원도 상당히 적다고 주장한다.
+
+## 저자 소개
+이 연구는 Google Research의 Brain Team 소속 연구원들인 Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby에 의해 수행되었다. 이들은 모두 컴퓨터 비전 및 머신러닝 분야에서 활발히 연구를 진행하고 있는 전문가들이다.
+
+## 요약
+Transformer 아키텍처는 NLP에서 널리 사용되고 있지만, 컴퓨터 비전에서는 아직 제한적으로 사용되고 있다. 기존의 비전 모델은 주로 CNN과 결합하여 사용되었으나, 저자는 CNN 없이 순수한 Transformer를 이미지 패치에 직접 적용하여 이미지 분류에서 우수한 성능을 발휘할 수 있음을 보여준다. ViT는 대량의 데이터로 사전 학습한 후, 중소 규모의 이미지 인식 벤치마크로 전이 학습할 때 최첨단 CNN과 비교하여 뛰어난 성능을 발휘하며, 학습에 필요한 계산 자원도 적다. ViT는 이미지 패치를 NLP의 토큰처럼 처리하여 Transformer에 입력하고, 사전 학습과 미세 조정을 통해 이미지 분류를 수행한다. 대량의 데이터로 학습할 경우, ViT는 CNN의 유도 편향 없이도 우수한 성능을 발휘할 수 있다. ViT는 ImageNet, CIFAR-100, VTAB 등 다양한 벤치마크에서 높은 정확도를 기록하며, 특히 JFT-300M 데이터셋으로 사전 학습한 모델은 여러 이미지 인식 벤치마크에서 최첨단 성능을 달성한다. ViT는 CNN보다 적은 계산 자원으로도 높은 성능을 발휘하며, 이는 대규모 데이터셋에서의 학습이 유도 편향을 능가할 수 있음을 시사한다. ViT는 다양한 이미지 인식 작업에 적용 가능하며, 향후 자가 지도 학습 및 다른 컴퓨터 비전 작업으로의 확장이 기대된다.
